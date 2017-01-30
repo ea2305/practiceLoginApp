@@ -10,9 +10,9 @@
 
 @interface SecondViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
 
-    
+    //Obtencion de elementos en story board
     IBOutlet UITableView *myTableView;
-    NSMutableArray *myData;
+    NSMutableArray *myData;//Datos
     
 }
 

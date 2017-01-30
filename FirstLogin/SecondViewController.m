@@ -2,7 +2,7 @@
 //  SecondViewController.m
 //  FirstLogin
 //
-//  Created by Elihu Alejandro Cruz Albores on 1/29/17.
+//  Created by Objective C Team.
 //  Copyright © 2017 Elihu Alejandro Cruz Albores. All rights reserved.
 //
 
@@ -42,11 +42,9 @@
     //DATOS DE USUARIOS
     NSUserDefaults *guardado = [NSUserDefaults standardUserDefaults];
     
-    // table view data is being set here
-    
-    
-    
+    //Obtenemos los datos almacenados en el telefono
      myData = [guardado objectForKey:@"correos"];
+    
     /* 
      myData = [[NSMutableArray alloc]initWithObjects:
      @"Data 1 in array",@"Data 2 in array",@"Data 3 in array",
@@ -61,6 +59,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+/*
+    Metodos estandar para la manipulacion de tableView en OC.
+ */
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
